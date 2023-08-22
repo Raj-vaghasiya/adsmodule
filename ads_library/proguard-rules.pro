@@ -20,6 +20,4 @@
    public *;
 }
 
--keep class com.ads.adsmodule.BaseActivity.** { *;}
--keep class com.ads.adsmodule.SplashCallBack.** { *;}
--keep class com.ads.adsmodule.MyAdListener.** { *;}
+-keep class com.ads.adsmodule.** { *;}
