@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ad_text_color">#fff</color>
+    <color name="card_color">#1d2331</color>
+
+    <color name="btn_color">#0cba46</color>
+    <color name="ads_color">#000</color>
+    <color name="ads_bg_color">#FFDD00</color>
+    <color name="default_notification_color">#FFDD00</color>
+    <color name="loading_text_color">#000</color>
+</resources>
