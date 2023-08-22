@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.Raj-vaghasiya'
-version = '0.0.2'
+version = '0.0.5'
 
 android {
     namespace 'com.ads.adsmodule'
@@ -15,13 +15,13 @@ android {
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
-        versionName "0.0.2"
-        consumerProguardFiles 'proguard-rules.pro'
+        versionName "0.0.5"
     }
 
     buildTypes {
         release {
             minifyEnabled false
+            consumerProguardFiles 'proguard-rules.pro'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -67,7 +67,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.Raj-vaghasiya'
                 artifactId = 'Ads-demo'
-                version = '0.0.2'
+                version = '0.0.5'
             }
         }
     }
