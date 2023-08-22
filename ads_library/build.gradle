@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.Raj-vaghasiya'
-version = '0.0.5'
+version = '0.0.7'
 
 android {
     namespace 'com.ads.adsmodule'
@@ -15,7 +15,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 32
         versionCode 1
-        versionName "0.0.5"
+        versionName "0.0.7"
     }
 
 //    buildTypes {
@@ -67,7 +67,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.Raj-vaghasiya'
                 artifactId = 'Ads-demo'
-                version = '0.0.5'
+                version = '0.0.7'
             }
         }
     }
